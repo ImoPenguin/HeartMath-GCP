@@ -1,0 +1,56 @@
+/**
+ * Theme Name: Custom Theme (based on 2024)
+ * Template:   twentytwentyfour
+ * Description: A custom child theme based on the Twenty Twenty-Four theme.
+ */
+
+*{
+	margin: 0;
+}
+
+header{
+	
+}
+
+.stick-to-top {
+
+}
+
+.navigation-buttons {
+	display: flex;
+	position: sticky;
+	font-size: large;
+}
+
+.navigation-buttons li {
+	border-radius: 5px;
+	flex-grow: 1;
+}
+
+.navigation-buttons li:hover {
+	background: #fbeeff;
+}
+
+.navigation-buttons a {
+	padding: 15px 20px;
+	width: 100%;
+
+	text-align: center;
+}
+
+.header-content .wp-block-buttons a {
+	background:#20b2aa;
+}
+
+
+.header-content .wp-block-buttons a:hover {
+	background:teal;
+	transition: 0.3s ease-out;
+}
+.is-style-outline a{
+	color: white !important;
+}
+.is-style-outline a:hover{
+	background: rgba(255, 255, 255, 0.3);
+	transition: 0.1s ease-out;
+}
